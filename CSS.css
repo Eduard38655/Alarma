@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 700px;
+    height: 400px;
+    background-color: rgba(86, 180, 112, 0.91);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    align-items: center;
+  
+}
+ 
+#clock{
+    width: 170px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+ color: black;
+background-color: brown;
+}
+button{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ button:hover{
+    border: 2px rebeccapurple  solid;
+    color: white;
+    background-color: black;
+ }
+p{
+    background-color: rgba(245, 245, 245, 0.752);
+    padding: 5px;
+    
+}
+
+ p span{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+
+ }
+ .contenedor{
+    width: 270px;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     
+  }
+ #leg1{
+     width: 15px;
+     height: 5px;
+     margin-left: 145px;
+     margin-bottom: 10px;
+     background-color:black; 
+    }
+    #leg2{
+        width: 15px;
+        height: 5px;
+        margin-right:140px;
+        margin-top: -15px;
+        background-color: black; 
+       
+    }
+
+    #boton{
+        width: 10px;
+        height: 8px;
+        margin-left:140px;
+         background-color: white;
+    }
+
+
+
+    .press_boton{
+        cursor: pointer;
+    }
+
+    .press_boton_2{
+        
+        transition: transform 0.5s ease;    }
+    .press_boton_2:hover {
+     
+
+        transform: translateY(6px) scale(0.9) rotateX(-70deg);
+      }
+ 
